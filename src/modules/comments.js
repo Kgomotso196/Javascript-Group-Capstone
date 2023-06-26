@@ -14,8 +14,6 @@ const hidePopup = () => {
 
 crossBtn.addEventListener('click', hidePopup);
 
-
-
 // This function adds new comment
 
 const addComment = async (data) => {

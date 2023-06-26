@@ -38,8 +38,4 @@ describe('Home page counter method', () => {
     // - TODO: ASSERT
     expect(output).toBe(0);
   });
-
 });
-
-});
-
