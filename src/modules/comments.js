@@ -35,8 +35,8 @@ const getData = async (id) => {
   const result = await getResponse.json();
   return result;
 };
-
 //Comment showing functions added
+
 const display = (comments) => {
   let li = '';
   comments.forEach((commentItem) => {
