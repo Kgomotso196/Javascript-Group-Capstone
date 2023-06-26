@@ -140,9 +140,8 @@ Feel free to check the [issues page](https://github.com/Rifat8080/Javascript-Gro
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project please give us a STAR ⭐
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
