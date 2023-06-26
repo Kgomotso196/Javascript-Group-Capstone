@@ -14,7 +14,6 @@ const hidePopup = () => {
 
 crossBtn.addEventListener('click', hidePopup);
 
-// This function adds new comment
 const addComment = async (data) => {
   const response = await fetch(postUrl, {
     method: 'POST',
@@ -36,7 +35,6 @@ const getData = async (id) => {
   const result = await getResponse.json();
   return result;
 };
-// Comment showing functions added
 
 const display = (comments) => {
   let li = '';
