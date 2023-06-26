@@ -10,7 +10,6 @@ export const getLike = async () => {
   }
 };
 
-// Function to add new like
 export const postLike = async (id) => {
   try {
     await fetch(`${DEFAULT.INVOLVEMENT_API_BASEURL}/likes/`, {
