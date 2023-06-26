@@ -104,7 +104,7 @@ npm start
 - Twitter: [@mdmahadirifat98](https://twitter.com/mdmahadirifat98)
 - LinkedIn: [md-mahadi-hasan-rifat-8b7851265](https://www.linkedin.com/in/md-mahadi-hasan-rifat-8b7851265/)
 
-👤 **Author2**
+👤 **Kgomotso(Troos)**
 
 - GitHub: [@githubhandle](https://github.com/Kgomotso196)
 - Twitter: [@twitterhandle](https://twitter.com/t_r_o_o_s)
