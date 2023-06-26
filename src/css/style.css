@@ -24,6 +24,13 @@ body {
   position: relative;
 }
 
+
+
+h1 {
+  color: #00d5ff;
+}
+
+
 input[type='submit']:hover {
   cursor: pointer;
 }

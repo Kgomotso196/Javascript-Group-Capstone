@@ -14,6 +14,10 @@ const hidePopup = () => {
 
 crossBtn.addEventListener('click', hidePopup);
 
+
+
+// This function adds new comment
+
 const addComment = async (data) => {
   const response = await fetch(postUrl, {
     method: 'POST',
@@ -36,6 +40,7 @@ const getData = async (id) => {
   return result;
 };
 
+// Comment showing functions added
 const display = (comments) => {
   let li = '';
   comments.forEach((commentItem) => {
@@ -52,7 +57,9 @@ const display = (comments) => {
 
 const commentCounterUpdate = (indices) => {
   const sum = commentCounter(indices);
-  document.querySelector('.comment-heading-container').innerHTML = ` <h3 class="comment-heading">Comments(${sum})</h3> `;
+  document.querySelector(
+    '.comment-heading-container',
+  ).innerHTML = ` <h3 class="comment-heading">Comments(${sum})</h3> `;
 };
 
 const insertComment = async (id) => {
@@ -121,8 +128,5 @@ const commentListener = () => {
 };
 
 export {
-  addComment,
-  getData,
-  hidePopup,
-  commentListener,
+  addComment, getData, hidePopup, commentListener,
 };
